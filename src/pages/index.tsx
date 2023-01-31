@@ -84,14 +84,14 @@ export default function Home() {
       <main>
         <div className="bg-white">
           <div className="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20">
-            <div className="mx-auto max-w-7xl pt-10 pb-24 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:py-40 lg:px-8">
+            <div className="mx-auto max-w-7xl pt-10 pb-24 sm:pb-32 lg:py-40 lg:px-8">
               <div className="mt-20 sm:mt-24 md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-0 lg:w-screen">
                 <div
-                  className="absolute inset-y-0 right-1/2 -z-10 -mr-10 w-[200%] skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 md:-mr-20 lg:-mr-36"
+                  className="absolute inset-y-0 right-1/2 -z-10 w-[200%] skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 md:-mr-20 lg:-mr-36"
                   aria-hidden="true"
                 />
-                <div className="shadow-lg md:rounded-3xl">
-                  <div className="bg-indigo-500 [clip-path:inset(0)] md:[clip-path:inset(0_round_theme(borderRadius.3xl))] w-screen">
+                <div className="shadow-lg md:rounded-3xl w-screen max-w-6xl">
+                  <div className="bg-indigo-500 [clip-path:inset(0)] md:[clip-path:inset(0_round_theme(borderRadius.3xl))]">
                     <div
                       className="absolute -inset-y-px left-1/2 -z-10 ml-10 w-[200%] skew-x-[-30deg] bg-indigo-100 opacity-20 ring-1 ring-inset ring-white md:ml-20 lg:ml-36"
                       aria-hidden="true"
