@@ -16,7 +16,7 @@ const handler = async (req: NextRequest): Promise<Response> => {
 
   const payload: OpenAIStreamPayload = {
     model: "text-davinci-003",
-    prompt,
+    prompt: `Give me the git command that would do the following: ${prompt}`,
     temperature: 0.7,
     top_p: 1,
     frequency_penalty: 0,
