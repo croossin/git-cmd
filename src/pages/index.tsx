@@ -96,7 +96,7 @@ export default function Home() {
                       className="absolute -inset-y-px left-1/2 -z-10 ml-10 w-[200%] skew-x-[-30deg] bg-indigo-100 opacity-20 ring-1 ring-inset ring-white md:ml-20 lg:ml-36"
                       aria-hidden="true"
                     />
-                    <div className="relative pt-8 sm:pt-16 md:p-16 md:pr-0">
+                    <div className="relative pt-8 sm:pt-16 md:p-16">
                       <div className="mx-auto max-w-2xl md:mx-0 md:max-w-none">
                         <div className="w-screen/2 overflow-hidden rounded-t-xl rounded-b-xl bg-gray-900">
                           <div className="flex bg-gray-800/40 ring-1 ring-white/5">
@@ -104,7 +104,7 @@ export default function Home() {
                               <div className="border-b border-r border-b-white/20 border-r-white/10 bg-white/5 py-2 px-4 text-white">
                                 roo.terminal
                               </div>
-                              <div className=" py-2 px-4">
+                              <div className="py-2 px-4">
                                 Type any git command in plain english
                               </div>
                             </div>
@@ -164,6 +164,14 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <footer className="mx-auto text-center">
+        <div className="text-slate-500">
+          Made with 🖤{" "}
+          <a href="https://roo.app" target="_blank" rel="noreferrer">
+            roo.app
+          </a>
+        </div>
+      </footer>
     </>
   );
 }
