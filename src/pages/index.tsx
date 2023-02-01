@@ -83,8 +83,8 @@ export default function Home() {
       </Head>
       <main className="h-screen -mb-8">
         <div className="bg-white">
-          <div className="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20">
-            <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl text-center pt-10 md:pt-40">
+          <div className="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20 text-center pt-10 md:pt-40">
+            <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl ">
               Never{" "}
               <span className="relative whitespace-nowrap text-blue-600">
                 <svg
@@ -101,6 +101,20 @@ export default function Home() {
               <br />
               git commands
             </h1>
+            <div className="sm:mb-8 sm:flex sm:justify-center mt-4">
+              <div className="relative rounded-full py-1 px-3 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                This demo is part of an article{" "}
+                <a
+                  href="https://roo.app/articles/git-cmd"
+                  className="font-semibold text-blue-600"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="absolute inset-0" aria-hidden="true" />
+                  Read more <span aria-hidden="true">&rarr;</span>
+                </a>
+              </div>
+            </div>
             <div className="mx-auto max-w-7xl pt-10 pb-24 sm:pb-32 lg:py-24 lg:px-8">
               <div className="ml-0 lg:ml-6">
                 <div
